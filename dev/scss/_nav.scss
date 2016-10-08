@@ -1,0 +1,37 @@
+.global-nav__logo {
+  float: left;
+  display: none;
+  margin-top: 8px;
+
+  @include desktop {
+    display: block;
+  }
+}
+
+.global-nav {
+  text-align: right;
+  padding: 12px 0;
+}
+
+.global-nav__menu {
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(23, 45, 86, 0);
+    opacity: .8;
+    transition: background-color .3s ease-out, opacity .3s ease-out;
+
+    &:hover {
+      background-color: rgba(23, 45, 86, 1);
+      opacity: 1;
+      transition: background-color .3s ease-out, opacity .3s ease-out;
+    }
+  }
+}

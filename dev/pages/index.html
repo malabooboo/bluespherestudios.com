@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="hero">
+  <div class="site-width">
+    {% include 'partials/_section-hero.html' %}
+  </div>
+</header>
+<section class="work">
+  <div class="site-width">
+    {% include 'partials/_section-work.html' %}
+  </div>
+</section>
+<section class="about">
+  <div class="site-width">
+    {% include 'partials/_section-about.html' %}
+  </div>
+</section>
+<section class="misc">
+  <div class="site-width">
+    <p>Misc</p>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Blue Sphere Studios - The online portfolio of web designer and developer Tim Malabuyo</title>
+  <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+{% include 'partials/_global-nav.html' %}
+<main>
+  {% block content %} {% endblock %}
+</main>
+<footer>
+  <div class="site-width">
+    <p>&copy; 2016 Blue Sphere Studios</p>
+  </div>
+</footer>
+</body>
+</html>

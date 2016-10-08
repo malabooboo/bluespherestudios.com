@@ -1,0 +1,9 @@
+<div class="work__slides">
+  <h2>{{work_section.title}}<small>{{work_section.subtitle}}</small></h2>
+  {% for item in work %}
+    <article class="slide">
+      <h3>{{item.title}}</h3>
+      <p>{{item.subtitle}}</p>
+    </article>
+  {% endfor %}
+</div>

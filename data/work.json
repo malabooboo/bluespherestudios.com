@@ -1,0 +1,23 @@
+{
+  "work_section": {
+    "title": "Work",
+    "subtitle": "Some of my work"
+  },
+  "work": [{
+    "title": "Google",
+    "subtitle": "Marketing websites",
+    "summary": "As part of Google's Brand Studio and Google for Work, I have worked on many different marketing websites and initiatives across the company and many different products.",
+    "sites": [{
+        "petra": {
+          "summary": "I worked as part of a three-person developer team which built a beautiful Maps Streetview Treks site to showcase the famous Petra in Jordan."
+        },
+        "inbox": {
+          "summary": "I was the developer who launched Google Inbox in 2014 and maintained until 2015."
+        }
+    }],
+    "filemaker": {
+      "title": "FileMaker",
+      "subtitle": "Corporate Website"
+    }
+  }]
+}

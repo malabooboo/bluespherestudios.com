@@ -1,0 +1,59 @@
+$color-dark-gray: rgba(29, 32, 41, 1);
+$color-blue: rgba(34, 60, 110, 1);
+
+@mixin desktop {
+  @media screen and (min-width: 768px) {
+    @content
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+body {
+  font: 300 16px/1.5 'Ubuntu', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.site-width {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  @include desktop {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+.hero {
+  background-color: $color-dark-gray;
+  color: rgba(255, 255, 255, .9);
+  padding: 20px 0;
+
+  @include desktop {
+    padding: 100px 0;
+  }
+}
+
+.section__title--hero {
+  font-weight: 300;
+  font-size: 26px;
+
+  @include desktop {
+    width: 80%;
+    max-width: 750px;
+    font-size: 32px;
+    margin: 0 auto;
+  }
+}
+
+.global-nav {
+  background-color: $color-blue;
+}
+
+footer {
+  padding: 10px 0;
+  color: rgba(255, 255, 255, .8);
+  background-color: $color-dark-gray;
+}
